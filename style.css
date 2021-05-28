@@ -80,6 +80,7 @@
 #img {
   width: 25rem;
   height: 25rem;
+  margin-top: 10px;
 }
 @font-face {
   font-family: 'normafixed';
