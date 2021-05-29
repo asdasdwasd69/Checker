@@ -1,0 +1,13 @@
+#container {
+  background-color: #3d3d3d;
+  height: auto;
+}
+
+.setuppc {
+  background-color: black;
+  margin: 100px;
+  text-align: center;
+  border-bottom: 1px solid #44d62c;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  height: auto;
+}
