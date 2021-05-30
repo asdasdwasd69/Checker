@@ -11,3 +11,80 @@
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   height: auto;
 }
+
+.modal {
+  z-index: 1;
+  display: none;
+  /* padding: 30px; */
+  /* margin: 300px; */
+  position: conter;
+  left: 0;
+  top: 0;
+  width: 15%;
+  height: 15%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  position: center;
+}
+
+.modal-hover-opacity {
+  opacity: 1;
+  filter: alpha(opacity=50);
+  -webkit-backface-visibility: hidden;
+}
+
+.modal-hover-opacity:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-backface-visibility: hidden;
+}
+
+.close {
+  text-decoration: none;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.container1 {
+  width: 200px;
+  display: inline-block;
+}
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.3s;
+  animation-name: zoom;
+  animation-duration: 0.3s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(0.5);
+  }
+}
+
+#img01{
+  height: 50%;
+
+}
